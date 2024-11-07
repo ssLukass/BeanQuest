@@ -7,11 +7,14 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import androidx.viewpager2.widget.CompositePageTransformer
 import androidx.viewpager2.widget.MarginPageTransformer
 import androidx.viewpager2.widget.ViewPager2
+import com.example.beanquest.Adapters.PopularAdapter
 import com.example.beanquest.Adapters.imageSliderAdapter
+import com.example.beanquest.Models.PopularModel
 import com.example.beanquest.R
 
 class HomeFragment : Fragment() {
@@ -20,6 +23,10 @@ class HomeFragment : Fragment() {
     private lateinit var viewPager2: ViewPager2
     private lateinit var imageList: ArrayList<Int>
     private lateinit var handler: Handler
+
+    private lateinit var popularAdapter: PopularAdapter
+    private lateinit var listPopular: ArrayList<PopularModel>
+    private lateinit var homeRV: RecyclerView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -30,9 +37,27 @@ class HomeFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragment
         val view = inflater.inflate(R.layout.fragment_home, container, false)
         viewPager2 = view.findViewById(R.id.imageSlider)
+
+
+        homeRV = view.findViewById(R.id.home_RV)
+        listPopular= ArrayList()
+        listPopular.add(PopularModel(R.drawable.el_diablo_burger, "Эль-Диабло бургер", "1870тг"))
+        listPopular.add(PopularModel(R.drawable.nuggets_snacks, "Нагетсы", "1199тг"))
+        listPopular.add(PopularModel(R.drawable.cheesy_hot_dog,"Сырный хот-док", "1650тг"))
+        listPopular.add(PopularModel(R.drawable.beef_doner,"Донер с говядиной", "2530тг"))
+        listPopular.add(PopularModel(R.drawable.mushroom_pizza, "Пицца с грибами", "4400тг" ))
+
+
+
+        popularAdapter = PopularAdapter(requireContext(),listPopular)
+
+        homeRV.layoutManager = LinearLayoutManager(requireContext())
+        homeRV.adapter = popularAdapter
+
+
+
         return view
     }
 
@@ -91,7 +116,6 @@ class HomeFragment : Fragment() {
         imageList.add(R.drawable.banner_7)
         imageList.add(R.drawable.banner_8)
         imageList.add(R.drawable.banner_9)
-        imageList.add(R.drawable.banner_10)
         imageList.add(R.drawable.banner_11)
 
         viewPager2.adapter = adapter
@@ -99,6 +123,8 @@ class HomeFragment : Fragment() {
         viewPager2.clipToPadding = false
         viewPager2.clipChildren = false
         viewPager2.getChildAt(0).overScrollMode = RecyclerView.OVER_SCROLL_NEVER
+
+
 
 
     }
