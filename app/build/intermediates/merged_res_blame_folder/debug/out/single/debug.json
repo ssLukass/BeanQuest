@@ -1,0 +1,418 @@
+[
+    {
+        "merged": "com.example.beanquest.app-merged_res-51:/layout_home_food_item.xml.flat",
+        "source": "com.example.beanquest.app-main-53:/layout/home_food_item.xml"
+    },
+    {
+        "merged": "com.example.beanquest.app-merged_res-51:/drawable_ic_mail.png.flat",
+        "source": "com.example.beanquest.app-main-53:/drawable/ic_mail.png"
+    },
+    {
+        "merged": "com.example.beanquest.app-merged_res-51:/drawable_garlic_sauce.png.flat",
+        "source": "com.example.beanquest.app-main-53:/drawable/garlic_sauce.png"
+    },
+    {
+        "merged": "com.example.beanquest.app-merged_res-51:/drawable_hunting_pizza.png.flat",
+        "source": "com.example.beanquest.app-main-53:/drawable/hunting_pizza.png"
+    },
+    {
+        "merged": "com.example.beanquest.app-merged_res-51:/drawable_salami_pizza.png.flat",
+        "source": "com.example.beanquest.app-main-53:/drawable/salami_pizza.png"
+    },
+    {
+        "merged": "com.example.beanquest.app-merged_res-51:/drawable_double_burger.png.flat",
+        "source": "com.example.beanquest.app-main-53:/drawable/double_burger.png"
+    },
+    {
+        "merged": "com.example.beanquest.app-merged_res-51:/drawable_banner_1.jpg.flat",
+        "source": "com.example.beanquest.app-main-53:/drawable/banner_1.jpg"
+    },
+    {
+        "merged": "com.example.beanquest.app-merged_res-51:/drawable_korndog_snacks.png.flat",
+        "source": "com.example.beanquest.app-main-53:/drawable/korndog_snacks.png"
+    },
+    {
+        "merged": "com.example.beanquest.app-merged_res-51:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.beanquest.app-main-53:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.beanquest.app-merged_res-51:/drawable_lamb_burger.png.flat",
+        "source": "com.example.beanquest.app-main-53:/drawable/lamb_burger.png"
+    },
+    {
+        "merged": "com.example.beanquest.app-merged_res-51:/drawable_btn_shape_lg.xml.flat",
+        "source": "com.example.beanquest.app-main-53:/drawable/btn_shape_lg.xml"
+    },
+    {
+        "merged": "com.example.beanquest.app-merged_res-51:/drawable_mexico_hot_dog.png.flat",
+        "source": "com.example.beanquest.app-main-53:/drawable/mexico_hot_dog.png"
+    },
+    {
+        "merged": "com.example.beanquest.app-merged_res-51:/drawable_edit_text_bg.xml.flat",
+        "source": "com.example.beanquest.app-main-53:/drawable/edit_text_bg.xml"
+    },
+    {
+        "merged": "com.example.beanquest.app-merged_res-51:/drawable_caesar_burger.png.flat",
+        "source": "com.example.beanquest.app-main-53:/drawable/caesar_burger.png"
+    },
+    {
+        "merged": "com.example.beanquest.app-merged_res-51:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.beanquest.app-main-53:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.beanquest.app-merged_res-51:/font_yeonsung.ttf.flat",
+        "source": "com.example.beanquest.app-main-53:/font/yeonsung.ttf"
+    },
+    {
+        "merged": "com.example.beanquest.app-merged_res-51:/drawable_greek_pizza.png.flat",
+        "source": "com.example.beanquest.app-main-53:/drawable/greek_pizza.png"
+    },
+    {
+        "merged": "com.example.beanquest.app-merged_res-51:/drawable_beef_doner.png.flat",
+        "source": "com.example.beanquest.app-main-53:/drawable/beef_doner.png"
+    },
+    {
+        "merged": "com.example.beanquest.app-merged_res-51:/layout_image_container.xml.flat",
+        "source": "com.example.beanquest.app-main-53:/layout/image_container.xml"
+    },
+    {
+        "merged": "com.example.beanquest.app-merged_res-51:/layout_fragment_home.xml.flat",
+        "source": "com.example.beanquest.app-main-53:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.example.beanquest.app-merged_res-51:/drawable_ic_lock.png.flat",
+        "source": "com.example.beanquest.app-main-53:/drawable/ic_lock.png"
+    },
+    {
+        "merged": "com.example.beanquest.app-merged_res-51:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.beanquest.app-main-53:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.beanquest.app-merged_res-51:/mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.example.beanquest.app-main-53:/mipmap-hdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.example.beanquest.app-merged_res-51:/drawable_banner_8.jpg.flat",
+        "source": "com.example.beanquest.app-main-53:/drawable/banner_8.jpg"
+    },
+    {
+        "merged": "com.example.beanquest.app-merged_res-51:/layout_aler_dialog.xml.flat",
+        "source": "com.example.beanquest.app-main-53:/layout/aler_dialog.xml"
+    },
+    {
+        "merged": "com.example.beanquest.app-merged_res-51:/layout_fragment_history.xml.flat",
+        "source": "com.example.beanquest.app-main-53:/layout/fragment_history.xml"
+    },
+    {
+        "merged": "com.example.beanquest.app-merged_res-51:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.beanquest.app-main-53:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.beanquest.app-merged_res-51:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.beanquest.app-main-53:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.beanquest.app-merged_res-51:/drawable_cheesy_sauce.png.flat",
+        "source": "com.example.beanquest.app-main-53:/drawable/cheesy_sauce.png"
+    },
+    {
+        "merged": "com.example.beanquest.app-merged_res-51:/drawable_image_logo.png.flat",
+        "source": "com.example.beanquest.app-main-53:/drawable/image_logo.png"
+    },
+    {
+        "merged": "com.example.beanquest.app-merged_res-51:/layout_activity_sing_up_user.xml.flat",
+        "source": "com.example.beanquest.app-main-53:/layout/activity_sing_up_user.xml"
+    },
+    {
+        "merged": "com.example.beanquest.app-merged_res-51:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.beanquest.app-main-53:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.beanquest.app-merged_res-51:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.beanquest.app-main-53:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.beanquest.app-merged_res-51:/drawable_chicken_doner.png.flat",
+        "source": "com.example.beanquest.app-main-53:/drawable/chicken_doner.png"
+    },
+    {
+        "merged": "com.example.beanquest.app-merged_res-51:/drawable_bbq_sauce.png.flat",
+        "source": "com.example.beanquest.app-main-53:/drawable/bbq_sauce.png"
+    },
+    {
+        "merged": "com.example.beanquest.app-merged_res-51:/drawable_burgerr.png.flat",
+        "source": "com.example.beanquest.app-main-53:/drawable/burgerr.png"
+    },
+    {
+        "merged": "com.example.beanquest.app-merged_res-51:/mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.example.beanquest.app-main-53:/mipmap-xxhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.example.beanquest.app-merged_res-51:/drawable_banner_2.jpg.flat",
+        "source": "com.example.beanquest.app-main-53:/drawable/banner_2.jpg"
+    },
+    {
+        "merged": "com.example.beanquest.app-merged_res-51:/layout_fragment_cart.xml.flat",
+        "source": "com.example.beanquest.app-main-53:/layout/fragment_cart.xml"
+    },
+    {
+        "merged": "com.example.beanquest.app-merged_res-51:/drawable_green_btn.xml.flat",
+        "source": "com.example.beanquest.app-main-53:/drawable/green_btn.xml"
+    },
+    {
+        "merged": "com.example.beanquest.app-merged_res-51:/drawable_menu_list.png.flat",
+        "source": "com.example.beanquest.app-main-53:/drawable/menu_list.png"
+    },
+    {
+        "merged": "com.example.beanquest.app-merged_res-51:/menu_bottom_menu.xml.flat",
+        "source": "com.example.beanquest.app-main-53:/menu/bottom_menu.xml"
+    },
+    {
+        "merged": "com.example.beanquest.app-merged_res-51:/drawable_ic_user.png.flat",
+        "source": "com.example.beanquest.app-main-53:/drawable/ic_user.png"
+    },
+    {
+        "merged": "com.example.beanquest.app-merged_res-51:/mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.example.beanquest.app-main-53:/mipmap-xhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.example.beanquest.app-merged_res-51:/drawable_banner_7.jpg.flat",
+        "source": "com.example.beanquest.app-main-53:/drawable/banner_7.jpg"
+    },
+    {
+        "merged": "com.example.beanquest.app-merged_res-51:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.beanquest.app-main-53:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.beanquest.app-merged_res-51:/drawable_banner_11.jpg.flat",
+        "source": "com.example.beanquest.app-main-53:/drawable/banner_11.jpg"
+    },
+    {
+        "merged": "com.example.beanquest.app-merged_res-51:/drawable_el_diablo_burger.png.flat",
+        "source": "com.example.beanquest.app-main-53:/drawable/el_diablo_burger.png"
+    },
+    {
+        "merged": "com.example.beanquest.app-merged_res-51:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.beanquest.app-main-53:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.beanquest.app-merged_res-51:/mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.example.beanquest.app-main-53:/mipmap-xxxhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.example.beanquest.app-merged_res-51:/drawable_menu_home.png.flat",
+        "source": "com.example.beanquest.app-main-53:/drawable/menu_home.png"
+    },
+    {
+        "merged": "com.example.beanquest.app-merged_res-51:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.beanquest.app-main-53:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.beanquest.app-merged_res-51:/drawable_ic_bell.png.flat",
+        "source": "com.example.beanquest.app-main-53:/drawable/ic_bell.png"
+    },
+    {
+        "merged": "com.example.beanquest.app-merged_res-51:/layout_activity_start.xml.flat",
+        "source": "com.example.beanquest.app-main-53:/layout/activity_start.xml"
+    },
+    {
+        "merged": "com.example.beanquest.app-merged_res-51:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.beanquest.app-main-53:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.beanquest.app-merged_res-51:/drawable_joker_burger.png.flat",
+        "source": "com.example.beanquest.app-main-53:/drawable/joker_burger.png"
+    },
+    {
+        "merged": "com.example.beanquest.app-merged_res-51:/drawable_ketchup_sauce.png.flat",
+        "source": "com.example.beanquest.app-main-53:/drawable/ketchup_sauce.png"
+    },
+    {
+        "merged": "com.example.beanquest.app-merged_res-51:/drawable_hamburger_burger.png.flat",
+        "source": "com.example.beanquest.app-main-53:/drawable/hamburger_burger.png"
+    },
+    {
+        "merged": "com.example.beanquest.app-merged_res-51:/drawable_french_fries_snacks.png.flat",
+        "source": "com.example.beanquest.app-main-53:/drawable/french_fries_snacks.png"
+    },
+    {
+        "merged": "com.example.beanquest.app-merged_res-51:/layout_fragment_search.xml.flat",
+        "source": "com.example.beanquest.app-main-53:/layout/fragment_search.xml"
+    },
+    {
+        "merged": "com.example.beanquest.app-merged_res-51:/drawable_four_spice_pizza.png.flat",
+        "source": "com.example.beanquest.app-main-53:/drawable/four_spice_pizza.png"
+    },
+    {
+        "merged": "com.example.beanquest.app-merged_res-51:/drawable_google.png.flat",
+        "source": "com.example.beanquest.app-main-53:/drawable/google.png"
+    },
+    {
+        "merged": "com.example.beanquest.app-merged_res-51:/drawable_mushroom_pizza.png.flat",
+        "source": "com.example.beanquest.app-main-53:/drawable/mushroom_pizza.png"
+    },
+    {
+        "merged": "com.example.beanquest.app-merged_res-51:/raw_splash.mp4.flat",
+        "source": "com.example.beanquest.app-main-53:/raw/splash.mp4"
+    },
+    {
+        "merged": "com.example.beanquest.app-merged_res-51:/drawable_fresh_hot_dog.png.flat",
+        "source": "com.example.beanquest.app-main-53:/drawable/fresh_hot_dog.png"
+    },
+    {
+        "merged": "com.example.beanquest.app-merged_res-51:/drawable_mushroom_hot_dog.png.flat",
+        "source": "com.example.beanquest.app-main-53:/drawable/mushroom_hot_dog.png"
+    },
+    {
+        "merged": "com.example.beanquest.app-merged_res-51:/drawable_banner_4.jpg.flat",
+        "source": "com.example.beanquest.app-main-53:/drawable/banner_4.jpg"
+    },
+    {
+        "merged": "com.example.beanquest.app-merged_res-51:/raw_beann.mp4.flat",
+        "source": "com.example.beanquest.app-main-53:/raw/beann.mp4"
+    },
+    {
+        "merged": "com.example.beanquest.app-merged_res-51:/drawable_cheeseburger_burger.png.flat",
+        "source": "com.example.beanquest.app-main-53:/drawable/cheeseburger_burger.png"
+    },
+    {
+        "merged": "com.example.beanquest.app-merged_res-51:/font_lato.xml.flat",
+        "source": "com.example.beanquest.app-main-53:/font/lato.xml"
+    },
+    {
+        "merged": "com.example.beanquest.app-merged_res-51:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.beanquest.app-main-53:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.beanquest.app-merged_res-51:/drawable_banner_5.jpg.flat",
+        "source": "com.example.beanquest.app-main-53:/drawable/banner_5.jpg"
+    },
+    {
+        "merged": "com.example.beanquest.app-merged_res-51:/drawable_home.png.flat",
+        "source": "com.example.beanquest.app-main-53:/drawable/home.png"
+    },
+    {
+        "merged": "com.example.beanquest.app-merged_res-51:/drawable_menu_search.png.flat",
+        "source": "com.example.beanquest.app-main-53:/drawable/menu_search.png"
+    },
+    {
+        "merged": "com.example.beanquest.app-merged_res-51:/layout_activity_main.xml.flat",
+        "source": "com.example.beanquest.app-main-53:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.beanquest.app-merged_res-51:/drawable_menu_user.png.flat",
+        "source": "com.example.beanquest.app-main-53:/drawable/menu_user.png"
+    },
+    {
+        "merged": "com.example.beanquest.app-merged_res-51:/font_rutype.ttf.flat",
+        "source": "com.example.beanquest.app-main-53:/font/rutype.ttf"
+    },
+    {
+        "merged": "com.example.beanquest.app-merged_res-51:/drawable_onion_ring_snacks.png.flat",
+        "source": "com.example.beanquest.app-main-53:/drawable/onion_ring_snacks.png"
+    },
+    {
+        "merged": "com.example.beanquest.app-merged_res-51:/drawable_logo.jpg.flat",
+        "source": "com.example.beanquest.app-main-53:/drawable/logo.jpg"
+    },
+    {
+        "merged": "com.example.beanquest.app-merged_res-51:/drawable_nuggets_snacks.png.flat",
+        "source": "com.example.beanquest.app-main-53:/drawable/nuggets_snacks.png"
+    },
+    {
+        "merged": "com.example.beanquest.app-merged_res-51:/drawable_text_view_green_bg.xml.flat",
+        "source": "com.example.beanquest.app-main-53:/drawable/text_view_green_bg.xml"
+    },
+    {
+        "merged": "com.example.beanquest.app-merged_res-51:/drawable_arrow_down.png.flat",
+        "source": "com.example.beanquest.app-main-53:/drawable/arrow_down.png"
+    },
+    {
+        "merged": "com.example.beanquest.app-merged_res-51:/drawable_facebook.png.flat",
+        "source": "com.example.beanquest.app-main-53:/drawable/facebook.png"
+    },
+    {
+        "merged": "com.example.beanquest.app-merged_res-51:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.beanquest.app-main-53:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.beanquest.app-merged_res-51:/xml_backup_rules.xml.flat",
+        "source": "com.example.beanquest.app-main-53:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.beanquest.app-merged_res-51:/drawable_menu_cart.png.flat",
+        "source": "com.example.beanquest.app-main-53:/drawable/menu_cart.png"
+    },
+    {
+        "merged": "com.example.beanquest.app-merged_res-51:/drawable_banner_6.jpg.flat",
+        "source": "com.example.beanquest.app-main-53:/drawable/banner_6.jpg"
+    },
+    {
+        "merged": "com.example.beanquest.app-merged_res-51:/layout_fragment_profile.xml.flat",
+        "source": "com.example.beanquest.app-main-53:/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "com.example.beanquest.app-merged_res-51:/drawable_pepperoni_pizza.png.flat",
+        "source": "com.example.beanquest.app-main-53:/drawable/pepperoni_pizza.png"
+    },
+    {
+        "merged": "com.example.beanquest.app-merged_res-51:/drawable_philadelphia_hot_dog.png.flat",
+        "source": "com.example.beanquest.app-main-53:/drawable/philadelphia_hot_dog.png"
+    },
+    {
+        "merged": "com.example.beanquest.app-merged_res-51:/drawable_black_mamba_burger.png.flat",
+        "source": "com.example.beanquest.app-main-53:/drawable/black_mamba_burger.png"
+    },
+    {
+        "merged": "com.example.beanquest.app-merged_res-51:/drawable_banner_9.jpg.flat",
+        "source": "com.example.beanquest.app-main-53:/drawable/banner_9.jpg"
+    },
+    {
+        "merged": "com.example.beanquest.app-merged_res-51:/layout_activity_splash.xml.flat",
+        "source": "com.example.beanquest.app-main-53:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.example.beanquest.app-merged_res-51:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.beanquest.app-main-53:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.beanquest.app-merged_res-51:/drawable_spicy_hot_dog.png.flat",
+        "source": "com.example.beanquest.app-main-53:/drawable/spicy_hot_dog.png"
+    },
+    {
+        "merged": "com.example.beanquest.app-merged_res-51:/navigation_navigation_fragment.xml.flat",
+        "source": "com.example.beanquest.app-main-53:/navigation/navigation_fragment.xml"
+    },
+    {
+        "merged": "com.example.beanquest.app-merged_res-51:/mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.example.beanquest.app-main-53:/mipmap-mdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.example.beanquest.app-merged_res-51:/drawable_cheesy_hot_dog.png.flat",
+        "source": "com.example.beanquest.app-main-53:/drawable/cheesy_hot_dog.png"
+    },
+    {
+        "merged": "com.example.beanquest.app-merged_res-51:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.beanquest.app-main-53:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.beanquest.app-merged_res-51:/drawable_text_view_bg.xml.flat",
+        "source": "com.example.beanquest.app-main-53:/drawable/text_view_bg.xml"
+    },
+    {
+        "merged": "com.example.beanquest.app-merged_res-51:/layout_activity_local.xml.flat",
+        "source": "com.example.beanquest.app-main-53:/layout/activity_local.xml"
+    },
+    {
+        "merged": "com.example.beanquest.app-merged_res-51:/drawable_profile.png.flat",
+        "source": "com.example.beanquest.app-main-53:/drawable/profile.png"
+    },
+    {
+        "merged": "com.example.beanquest.app-merged_res-51:/drawable_banner_3.jpg.flat",
+        "source": "com.example.beanquest.app-main-53:/drawable/banner_3.jpg"
+    },
+    {
+        "merged": "com.example.beanquest.app-merged_res-51:/layout_activity_login_user.xml.flat",
+        "source": "com.example.beanquest.app-main-53:/layout/activity_login_user.xml"
+    }
+]

@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "com.example.beanquest.app-mergeDebugResources-50:/layout/image_container.xml",
+        "source": "com.example.beanquest.app-main-53:/layout/image_container.xml"
+    },
+    {
+        "merged": "com.example.beanquest.app-mergeDebugResources-50:/layout/fragment_profile.xml",
+        "source": "com.example.beanquest.app-main-53:/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "com.example.beanquest.app-mergeDebugResources-50:/layout/activity_start.xml",
+        "source": "com.example.beanquest.app-main-53:/layout/activity_start.xml"
+    },
+    {
+        "merged": "com.example.beanquest.app-mergeDebugResources-50:/layout/activity_main.xml",
+        "source": "com.example.beanquest.app-main-53:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.beanquest.app-mergeDebugResources-50:/layout/activity_login_user.xml",
+        "source": "com.example.beanquest.app-main-53:/layout/activity_login_user.xml"
+    },
+    {
+        "merged": "com.example.beanquest.app-mergeDebugResources-50:/layout/home_food_item.xml",
+        "source": "com.example.beanquest.app-main-53:/layout/home_food_item.xml"
+    },
+    {
+        "merged": "com.example.beanquest.app-mergeDebugResources-50:/layout/aler_dialog.xml",
+        "source": "com.example.beanquest.app-main-53:/layout/aler_dialog.xml"
+    },
+    {
+        "merged": "com.example.beanquest.app-mergeDebugResources-50:/layout/activity_local.xml",
+        "source": "com.example.beanquest.app-main-53:/layout/activity_local.xml"
+    },
+    {
+        "merged": "com.example.beanquest.app-mergeDebugResources-50:/layout/fragment_home.xml",
+        "source": "com.example.beanquest.app-main-53:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.example.beanquest.app-mergeDebugResources-50:/layout/fragment_search.xml",
+        "source": "com.example.beanquest.app-main-53:/layout/fragment_search.xml"
+    },
+    {
+        "merged": "com.example.beanquest.app-mergeDebugResources-50:/layout/fragment_history.xml",
+        "source": "com.example.beanquest.app-main-53:/layout/fragment_history.xml"
+    },
+    {
+        "merged": "com.example.beanquest.app-mergeDebugResources-50:/layout/activity_sing_up_user.xml",
+        "source": "com.example.beanquest.app-main-53:/layout/activity_sing_up_user.xml"
+    },
+    {
+        "merged": "com.example.beanquest.app-mergeDebugResources-50:/layout/fragment_cart.xml",
+        "source": "com.example.beanquest.app-main-53:/layout/fragment_cart.xml"
+    },
+    {
+        "merged": "com.example.beanquest.app-mergeDebugResources-50:/layout/activity_splash.xml",
+        "source": "com.example.beanquest.app-main-53:/layout/activity_splash.xml"
+    }
+]

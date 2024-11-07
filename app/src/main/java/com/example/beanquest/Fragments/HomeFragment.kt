@@ -14,8 +14,14 @@ import androidx.viewpager2.widget.MarginPageTransformer
 import androidx.viewpager2.widget.ViewPager2
 import com.example.beanquest.Adapters.PopularAdapter
 import com.example.beanquest.Adapters.imageSliderAdapter
-import com.example.beanquest.Models.PopularModel
+import com.example.beanquest.Models.PopularDish
 import com.example.beanquest.R
+import com.example.beanquest.databinding.FragmentHomeBinding
+import com.example.beanquest.room.AppDatabase
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
 
 class HomeFragment : Fragment() {
 
@@ -25,46 +31,42 @@ class HomeFragment : Fragment() {
     private lateinit var handler: Handler
 
     private lateinit var popularAdapter: PopularAdapter
-    private lateinit var listPopular: ArrayList<PopularModel>
+    private lateinit var listPopular: List<PopularDish>
     private lateinit var homeRV: RecyclerView
-
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
+    private val appDatabase by lazy {
+        AppDatabase.getInstance(requireContext())
     }
 
+    private lateinit var binding: FragmentHomeBinding
 
     override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
+        inflater: LayoutInflater,
+        container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
-        val view = inflater.inflate(R.layout.fragment_home, container, false)
-        viewPager2 = view.findViewById(R.id.imageSlider)
-
-
-        homeRV = view.findViewById(R.id.home_RV)
-        listPopular= ArrayList()
-        listPopular.add(PopularModel(R.drawable.el_diablo_burger, "Эль-Диабло бургер", "1870тг"))
-        listPopular.add(PopularModel(R.drawable.nuggets_snacks, "Нагетсы", "1199тг"))
-        listPopular.add(PopularModel(R.drawable.cheesy_hot_dog,"Сырный хот-док", "1650тг"))
-        listPopular.add(PopularModel(R.drawable.beef_doner,"Донер с говядиной", "2530тг"))
-        listPopular.add(PopularModel(R.drawable.mushroom_pizza, "Пицца с грибами", "4400тг" ))
-
-
-
-        popularAdapter = PopularAdapter(requireContext(),listPopular)
-
-        homeRV.layoutManager = LinearLayoutManager(requireContext())
-        homeRV.adapter = popularAdapter
-
-
-
-        return view
+    ): View {
+        binding = FragmentHomeBinding.inflate(layoutInflater, container, false)
+//        listPopular.add(PopularDish(R.drawable.el_diablo_burger, "Эль-Диабло бургер", "1870тг"))
+//        listPopular.add(PopularDish(R.drawable.nuggets_snacks, "Нагетсы", "1199тг"))
+//        listPopular.add(PopularDish(R.drawable.cheesy_hot_dog, "Сырный хот-док", "1650тг"))
+//        listPopular.add(PopularDish(R.drawable.beef_doner, "Донер с говядиной", "2530тг"))
+//        listPopular.add(PopularDish(R.drawable.mushroom_pizza, "Пицца с грибами", "4400тг"))
+        return binding.root
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         init()
         setTransfarmer()
+
+        viewPager2 = view.findViewById(R.id.imageSlider)
+        homeRV = view.findViewById(R.id.home_RV)
+
+        listPopular = appDatabase.dishDao().getDishes()
+        popularAdapter = PopularAdapter(requireContext(), listPopular)
+
+        homeRV.layoutManager = LinearLayoutManager(requireContext())
+        homeRV.adapter = popularAdapter
+
         viewPager2.registerOnPageChangeCallback(object : ViewPager2.OnPageChangeCallback() {
             override fun onPageSelected(position: Int) {
                 super.onPageSelected(position)
@@ -98,7 +100,7 @@ class HomeFragment : Fragment() {
 
     override fun onResume() {
         super.onResume()
-        handler.postDelayed(runnable,2000)
+        handler.postDelayed(runnable, 2000)
     }
 
     private fun init() {
@@ -123,8 +125,6 @@ class HomeFragment : Fragment() {
         viewPager2.clipToPadding = false
         viewPager2.clipChildren = false
         viewPager2.getChildAt(0).overScrollMode = RecyclerView.OVER_SCROLL_NEVER
-
-
 
 
     }
