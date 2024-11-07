@@ -55,11 +55,12 @@ class HomeFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        viewPager2 = view.findViewById(R.id.imageSlider)
+        homeRV = view.findViewById(R.id.home_RV)
         init()
         setTransfarmer()
 
-        viewPager2 = view.findViewById(R.id.imageSlider)
-        homeRV = view.findViewById(R.id.home_RV)
+
 
         listPopular = appDatabase.dishDao().getDishes()
         popularAdapter = PopularAdapter(requireContext(), listPopular)

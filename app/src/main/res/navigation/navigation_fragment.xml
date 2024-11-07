@@ -9,22 +9,38 @@
         android:id="@+id/home"
         android:name="com.example.beanquest.Fragments.HomeFragment"
         android:label="fragment_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_home_to_cart"
+            app:destination="@id/cart" />
+    </fragment>
     <fragment
         android:id="@+id/cart"
         android:name="com.example.beanquest.Fragments.CartFragment"
         android:label="fragment_cart"
-        tools:layout="@layout/fragment_cart" />
+        tools:layout="@layout/fragment_cart" >
+        <action
+            android:id="@+id/action_cart_to_search"
+            app:destination="@id/search" />
+    </fragment>
     <fragment
         android:id="@+id/search"
         android:name="com.example.beanquest.Fragments.SearchFragment"
         android:label="fragment_search"
-        tools:layout="@layout/fragment_search" />
+        tools:layout="@layout/fragment_search" >
+        <action
+            android:id="@+id/action_search_to_history"
+            app:destination="@id/history" />
+    </fragment>
     <fragment
         android:id="@+id/history"
         android:name="com.example.beanquest.Fragments.HistoryFragment"
         android:label="fragment_history"
-        tools:layout="@layout/fragment_history" />
+        tools:layout="@layout/fragment_history" >
+        <action
+            android:id="@+id/action_history_to_profile"
+            app:destination="@id/profile" />
+    </fragment>
     <fragment
         android:id="@+id/profile"
         android:name="com.example.beanquest.Fragments.ProfileFragment"
